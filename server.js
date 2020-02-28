@@ -29,5 +29,6 @@ app.delete('/somedata/:id', function(req, res) {
     });
 });
 
+console.log('started somedata-server');
 
 app.listen( 3000 );
